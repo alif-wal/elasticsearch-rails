@@ -108,7 +108,7 @@ module Elasticsearch
         #
         module WillPaginate
           def self.included(base)
-            base.__send__ :include, ::WillPaginate::CollectionMethods
+            # base.__send__ :include, ::WillPaginate::CollectionMethods
 
             # Include the paging methods in results and records
             #
